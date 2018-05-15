@@ -1,6 +1,6 @@
 {
   "name": "@rojo2/random-within",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/random-within.cjs.js",
   "module": "dist/random-within.esm.js",
   "browser": "dist/random-within.udm.js",
