@@ -1,14 +1,19 @@
 import { expect } from "chai";
-import createRandomFunction from "../src/random-within"
+import randomWithin from "../src/random-within"
 
-describe("Create Random Function", () => {
+describe("Random Within", () => {
 
-  it("should test that it always generates the same sequence of numbers", () => {
+  it("should return random numbers within a range", () => {
     
-    const random = createRandomFunction();
-    expect(random()).to.be.equal(0.000005748588591814041);
-    expect(random()).to.be.equal(0.6551540484651923);
-    expect(random()).to.be.equal(0.30481433868408203);
+    for (let i = 0; i < 100; i++) {
+      expect(randomWithin(0, 5))
+        .to.be.within(0, 5);
+    }
+    
+    for (let i = 0; i < 100; i++) {
+      expect(randomWithin(-5, 5))
+        .to.be.within(-5, 5);
+    }
 
   });
 

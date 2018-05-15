@@ -1,6 +1,6 @@
 {
   "name": "@rojo2/random-within",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/random-within.cjs.js",
   "module": "dist/random-within.esm.js",
   "browser": "dist/random-within.udm.js",
@@ -34,11 +34,8 @@
     "url": "git+https://github.com/rojo2/random-within.git"
   },
   "keywords": [
-    "linear",
-    "congruential",
-    "generator",
-    "pseudo",
-    "random"
+    "random",
+    "within"
   ],
   "bugs": {
     "url": "https://github.com/rojo2/random-within/issues"
