@@ -1,4 +1,4 @@
-# Random Between
+# Random Within 
 ![Travis CI](https://travis-ci.org/rojo2/random-within.svg?branch=master)
 
 ```javascript
